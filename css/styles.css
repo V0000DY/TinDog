@@ -12,6 +12,11 @@ p {
   color: #8f8f8f;
 }
 
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+
 /* Hedings */
 .big-heading {
   font-size: 3.5rem;
@@ -133,6 +138,16 @@ background-color: #fff;
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (max-width: 991px) {
